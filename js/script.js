@@ -18,7 +18,7 @@ document.addEventListener('click', e => {
             `
         }).then((result) => {
             if (result.isConfirmed) {
-                let url = "https://api.whatsapp.com/send?phone=593992039435&text=" + "Si acepto mi amor 🥰" + "%0A";
+                let url = "https://api.whatsapp.com/send?phone=51935544032&text=" + "Si acepto mi amor 🥰" + "%0A";
                 window.open(url, "Enviar");
             }
         })
